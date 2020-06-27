@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h3 class="heading">Calculator</h3>
+    <div class="main">
+        <div>
+            <input type="text" class="input" id="cal_res">
+        </div>
+        <div class="numbers">
+		    <button class="cBtn" onclick="clrRes()">C</button>
+            <button class="top_last_row" onclick="getNum('%')">%</button>
+            <button class="top_last_row" onclick="getNum('/')">/</button>
+        </div>
+        <div class="numbers">
+            <button class="btn" onclick="getNum('7')">7</button>
+            <button class="btn" onclick="getNum('8')">8</button>
+            <button class="btn" onclick="getNum('9')">9</button>
+            <button class="btn" onclick="getNum('*')">X</button>
+        </div>
+        <div class="numbers">
+            <button class="btn" onclick="getNum('4')">4</button>
+            <button class="btn" onclick="getNum('5')">5</button>
+            <button class="btn" onclick="getNum('6')">6</button>
+            <button class="btn" onclick="getNum('-')">-</button>
+        </div>
+        <div class="numbers">
+            <button class="btn" onclick="getNum('1')">1</button>
+            <button class="btn" onclick="getNum('2')">2</button>
+            <button class="btn" onclick="getNum('3')">3</button>
+            <button class="btn" onclick="getNum('+')">+</button>
+        </div>
+        <div class="numbers">
+            <button class="top_last_row" onclick="getNum('0')">0</button>
+            <button class="top_last_row" onclick="getNum('.')">.</button>
+            <button class="top_last_row" onclick="getRes()">=</button>
+        </div>
+        
+    </div>
+    
+</body>
+
+<script src="app.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

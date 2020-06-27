@@ -1,0 +1,59 @@
+.heading{
+	text-align: center;
+	font-size: 50px;
+	color: #2F4F4F;
+	margin-top: 20px;
+}
+.main{
+    border: 4px solid white;
+    width: 320px;
+    height: 490px;
+    margin: auto;
+    border-radius: 2px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #2F4F4F;
+}
+.input{
+    width: 299px;
+    height: 95px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 5px solid white;
+    background-color: #eaedef;
+    font-size: 30px;
+}
+.numbers{
+    margin: 10px;
+}
+.btn, .cBtn{
+    width: 67.5px;
+    height: 60px;
+    margin: 2px;
+    cursor: pointer;
+	border-radius: 6px;
+}
+.cBtn{
+    background-color: #FFA07A;
+	width: 93px;
+    height: 55px;
+    margin: 2px;
+    cursor: pointer;
+}
+.btn:active, .top_last_row:active, .cBtn:active{
+    font-size: 40px;
+}
+.btn:focus, .halfBtn:focus, .cBtn:focus{
+    outline: 0;   
+}
+.top_last_row{
+    width: 93px;
+    height: 55px;
+    margin: 2px;
+    cursor: pointer;
+	border-radius: 6px;
+}
+.btn, .cBtn, .top_last_row{
+    font-size: 25px;
+    font-weight: bold;
+    border-width: 0;
+}
